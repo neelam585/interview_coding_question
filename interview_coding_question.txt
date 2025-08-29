@@ -25,3 +25,45 @@ Output: 1234XXXX90
 Output: [[3, 6, 9], 
                 [2, 5, 8], 
                 [1, 4, 7]]
+
+5.For example, with prices = [7, 1, 5, 3, 6, 4], the maximum profit is 5 by buying on day 2 (price 1) and selling on day 5 (price 6). 
+
+6. arraydata = {"java","python","sql"}
+output  {"Java","Python","Sql"}
+
+7.
+there are two map first we need to secound map short on basis of salary and then we need to map with first map1 on basis of name
+Map<Integer, String> map1 = new HashMap<>();
+ map1.put(101,"Rahul");
+ map1.put(103,"Raj");
+ map1.put(106,"Chinna");
+ map1.put(105,"Rahim");
+
+ Map<String, Double> map2 = new HashMap<>();
+ map2.put("Chinna",50000.0);
+ map2.put("Rahim",60000.0);
+ map2.put("Raj",70000.0);
+ map2.put("Rahul",20000.0);
+
+
+Map<String,Integer> nameToInt = new HashMap<>();
+for(Map.Entry<Integer,String> nametoint: map1.entrySet()){
+   //System.out.println(nametoint.getKey() + nametoint.getValue());
+   nameToInt.put(nametoint.getValue(),nametoint.getKey());
+}
+
+ List<Map.Entry<String,Double>> shortedMap2 = new ArrayList<>(map2.entrySet());
+ shortedMap2.sort((a,b)->b.getValue().compareTo(a.getValue()));
+
+ Map<Integer,Double> finalData = new LinkedHashMap<>();
+ for(Map.Entry<String,Double> map2data: shortedMap2) {
+     System.out.println(map2data.getKey()+"aaaaaa"+map2data.getValue());
+     finalData.put(nameToInt.get(map2data.getKey()),map2data.getValue());
+
+
+ }
+
+
+ System.out.println(finalData);
+
+
