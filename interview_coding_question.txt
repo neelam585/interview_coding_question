@@ -31,7 +31,24 @@ Output: [[3, 6, 9],
 6. arraydata = {"java","python","sql"}
 output  {"Java","Python","Sql"}
 
-7.
+7. Valid Parentheses in an Expression
+Input: s = "[{()}]"
+Output: true
+Explanation:  All the brackets are well-formed.
+
+Input: s = "[()()]{}"
+Output: true
+Explanation: All the brackets are well-formed.
+
+Input: s = "([]"
+Output: false
+Explanation: The expression is not balanced as there is a missing ')' at the end.
+
+Input:  s = "([{]})"
+Output: false
+Explanation: The expression is not balanced because there is a closing ']' before the closing '}'.
+
+8.
 there are two map first we need to secound map short on basis of salary and then we need to map with first map1 on basis of name
 Map<Integer, String> map1 = new HashMap<>();
  map1.put(101,"Rahul");
