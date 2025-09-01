@@ -82,5 +82,8 @@ for(Map.Entry<Integer,String> nametoint: map1.entrySet()){
 
 
  System.out.println(finalData);
+which is correct
+@FunctionalInterface interface A{ void test1(); } @FunctionalInterface interface B extends A{ void test2(); } @FunctionalInterface interface A{ void test1(); } interface B extends A{ void test2(); }
 
-
+what is meaning of str.chars() and .mapToObj(c->(char)c)
+Map<Character,Long> result = str.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
