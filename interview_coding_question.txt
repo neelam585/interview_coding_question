@@ -87,3 +87,37 @@ which is correct
 
 what is meaning of str.chars() and .mapToObj(c->(char)c)
 Map<Character,Long> result = str.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+
+
+//        of all the persons using java 8 streams
+//        Input is Map<String, List<String>>
+//
+//        e.g.person1, list(9875911111,9875911122)
+//
+//        person2, list(8759111112,8759111223)
+//
+//        Output is List<String>
+//
+//        9875911111
+//
+//        9875911122
+//
+//        8759111112
+//
+//        8759111223
+
+        Map<String, List<String>> data =
+
+                List < List < String >> res = data.entrySet().stream().map(Map.Entry::getValue).collect(Collectors.toList());
+
+        res.stream().FlatMap()
+
+
+//        You are designing a payment processing system
+//        where different payment methods (CreditCard, Paypal, UPI)
+//        need to be supported. How would you design
+//        this using OOP principle to ensure scalability and maintainibility.
+
+
+    }
+}
