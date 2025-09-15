@@ -121,3 +121,38 @@ Map<Character,Long> result = str.chars().mapToObj(c->(char)c).collect(Collectors
 
     }
 }
+
+
+///
+
+   int productCost = 150;
+      List<Integer>  insertedCoins = Arrays.asList(100, 100);
+       Set<Integer> coinSystem =new HashSet<>();
+        coinSystem.add(1);
+        coinSystem.add(2);coinSystem.add(5);
+        coinSystem.add(10);
+        coinSystem.add(20);
+        coinSystem.add(50);
+        coinSystem.add(100);
+        coinSystem.add(200);
+        calculateMinCoinsForChange(productCost,insertedCoins,coinSystem);
+    }
+
+    public static Map<Integer, Integer> calculateMinCoinsForChange(
+            Integer productCost, List<Integer> insertedCoins, Set<Integer> coinSystem) {
+
+        // first we divide the product
+
+
+
+        for(int coinsys: coinSystem){
+            if(insertedCoins.contains(coinsys)){
+
+            }
+        }
+
+        return new HashMap<>();
+
+
+
+    }
