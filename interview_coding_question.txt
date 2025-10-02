@@ -1,4 +1,40 @@
- 1. String[] words = {"eat", "tea", "tan", "ate", "nat", "bat"};
+
+public class MyClass{
+public MyClass(){
+sysout("hi");
+new MyClass();
+}
+private static MESSAGE = "msg";
+main(){
+MyClass m1 = new MyClass()
+m1.MESSAGE = "Something else";
+sysout(MESSAGE);
+}
+}
+
+
+try{
+system.exit(0);
+return 5;
+}catch(Exception exception){
+exception.printstacktrace();
+}finally{
+return 1;
+}
+
+
+
+public class MyClass{
+private static MESSAGE = "msg";
+main(){
+MyClass m1 = new MyClass()
+m1.MESSAGE = "Something else";
+sysout(MESSAGE);
+}
+}
+
+=============================================================================================================================================================
+1. String[] words = {"eat", "tea", "tan", "ate", "nat", "bat"};
           List<String> data = new ArrayList<>();
           for(int i =0; i<words.length; i++){
              String datas = words[i].chars().mapToObj(c->(char) c).sorted().collect(Collectors.joining());
