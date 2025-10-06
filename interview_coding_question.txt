@@ -1,4 +1,11 @@
+String s = "hasgsddgsbabaffa";
 
+           // h,as,gsd,dgsb,abaff,a
+    //IntStream.range(0,s.length()).mapToObj(i->(char)i)
+
+   List<Integer> list = Arrays.asList(2,3,4,12,13,18,17);
+   //[2E,3O,4E,12E,13O,18E,17O]
+=================================================================================
 public class MyClass{
 public MyClass(){
 sysout("hi");
