@@ -1,3 +1,55 @@
+- find volume
+@FunctionalInterface
+interface MyInterface<T>{
+ T add(T l, T b, T h);
+
+}
+
+public class Demo{
+public static void main(String[] args){
+
+MyInterface<Integer> num = (a,b) -> (a*b*c);
+
+}
+
+}
+---------------------------------------------------------------------------------
+- create print method in singleton class A and calls print() in B class.
+
+public class B extend A{
+
+@Override
+public void print(){
+sout();
+}
+public static void main(String[] args){
+             A.getInstance();
+
+
+}
+
+}
+
+public class A {
+private static A instance;
+
+private A{ }
+
+public static synchronized A getInstance(){
+  if(instance == null){
+    instance = new A();
+}
+return instance;
+
+}
+
+public void print(){
+ System.out.print("print method");
+} 
+
+}
+------------------------------------------------------------------------------------------
+=========================================================================================================
 List<String> listOfStrings = Arrays.asList(“Java”, “Python”, “C#”, “HTML”, “Kotlin”, “C++”, “COBOL”, “C”);
 
 
