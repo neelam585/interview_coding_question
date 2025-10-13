@@ -1,3 +1,22 @@
+Question 1: Most Booked Hotel Room
+
+Problem Description: Given a hotel which has 10 floors [0-9] and each floor has 26 rooms [A-Z]. You are given a sequence of rooms, where + suggests the room is booked, - the room is freed. You have to find the number of rooms that were booked.
+
+You may assume that the list describes a correct sequence of bookings in chronological order; that is, only free rooms can be booked, and only booked rooms can be freed. 
+
+You may assume:
+
+N (length of input) is an integer within the range [1, 600]
+Each element of array A is a string consisting of three characters: "+" or "-"; a digit "0"-"9"; and uppercase English letter "A" - "Z"
+Input: ["+1A", "+3E", "-1A", "+4F", "+1A", "-3E"]
+Output: 4
+Explanation: 4 rooms are booked at this time.
+Input: ["-1C", "-3F", "-1L", "-ZF", "-1R", "-3E"]
+Output: 0
+Explanation: All rooms are free.
+
+
+
 - find volume
 @FunctionalInterface
 interface MyInterface<T>{
