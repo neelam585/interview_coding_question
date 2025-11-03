@@ -289,3 +289,4 @@ Map<Character,Long> result = str.chars().mapToObj(c->(char)c).collect(Collectors
 
 
     }
+two string have same content but reference are different. when we compare  reference using == sign it will give false value. how can we resolve
