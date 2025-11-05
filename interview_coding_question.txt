@@ -286,6 +286,23 @@ Map<Character,Long> result = str.chars().mapToObj(c->(char)c).collect(Collectors
 
         return new HashMap<>();
 
+  1.  Enhancements in HashMap (Java 8+)
+       2.  Stack over flow error how avoid
+
+       3. comparable and comprator
+       4. when then query for update condition
+       5. groupingby.tomap
+       6. flatmap and map
+       8. list of sting banana, groupe, apple
+
+      9.
+      
+      10. cagiminiindia no of i count;
+
+       nellam patel reverse patel neelam karna  PATEL ko puran captel karna HashMap
+
+       Nellam captical ko remove kara ha sare element ka frequecy 
+
 
 
     }
