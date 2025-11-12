@@ -356,15 +356,7 @@ two string have same content but reference are different. when we compare  refer
 //int[] nums1 = [1, 3, 5, 6, 0, 0, 0]
 //int[] nums2 [2, 4, 7]
 
-class Buffer {
-    Queue<Integer> list;
-    int size;
-    void produce(int data) {
 
-    }
-    void consume() {}
-
-}
 
 class CustomThread extends Buffer{
 
@@ -376,3 +368,19 @@ class CustomThread extends Buffer{
 
     }
 }
+
+class Buffer {
+    Queue<Integer> list;
+    int size;
+    void produce(int data) {
+
+    }
+    void consume() {}
+
+}
+
+Producer: Generates data items and adds them to the shared buffer.
+
+Consumer: Retrieves data items from the shared buffer and processes them.
+
+Create the Program to start two threads producer and consumer so that the buffer does not overflow and underflow
