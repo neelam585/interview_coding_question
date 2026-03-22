@@ -384,3 +384,41 @@ Producer: Generates data items and adds them to the shared buffer.
 Consumer: Retrieves data items from the shared buffer and processes them.
 
 Create the Program to start two threads producer and consumer so that the buffer does not overflow and underflow
+
+
+1. NoClassDefFoundError and ClassNotFoundExpection
+String s1="s1";
+String s2="s1";
+system.out.println(s1==s2);
+
+String s1="s1";
+String s2=new String("s1");
+system.out.println(s1.equal(s2));
+
+String s1="s1";
+String s2="s1";
+system.out.println(s1.equal(s2));
+
+
+2. what is circuit breaker desgin pattern
+
+3. write a example for record and sealed class?
+
+4. how to improve the performance the application?
+
+5.	
+
+
+ public static void main(String[] args) {
+    System.out.println(test());
+}
+private static String test() {
+    try {
+        if (1==1)throw new RuntimeException();
+        return "try";
+    } catch (Exception e) {
+        return "catch";
+    } finally {
+        return "finally";
+    }
+}
