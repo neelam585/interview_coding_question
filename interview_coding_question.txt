@@ -384,8 +384,9 @@ Producer: Generates data items and adds them to the shared buffer.
 Consumer: Retrieves data items from the shared buffer and processes them.
 
 Create the Program to start two threads producer and consumer so that the buffer does not overflow and underflow
+=======================================================================================================
 
-
+1. how to handle one million record success or not how can check?
 1. NoClassDefFoundError and ClassNotFoundExpection
 String s1="s1";
 String s2="s1";
