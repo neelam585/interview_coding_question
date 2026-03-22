@@ -407,7 +407,7 @@ system.out.println(s1.equal(s2));
 
 4. how to improve the performance the application?
 
-5.	
+5.	string.valueof() means
 
 
  public static void main(String[] args) {
