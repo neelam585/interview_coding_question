@@ -409,7 +409,7 @@ system.out.println(s1.equal(s2));
 
 5.	string.valueof() means
 
-
+6. once per request in security?
  public static void main(String[] args) {
     System.out.println(test());
 }
