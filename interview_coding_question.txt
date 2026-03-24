@@ -413,6 +413,23 @@ system.out.println(s1.equal(s2));
  public static void main(String[] args) {
     System.out.println(test());
 }
+
+Interview question.
+
+1. What is kubernatives. In kubernatives how can monitor the application for microservices and check the performance
+2. what is application context.
+3. what is intercepter.
+4. how can check db health?
+5. how to check slow sql query in db.
+6. In mailnofication system if we are using the kafka then mail server is down the what will be consumer side?
+7. what is EKS.
+8. if one topic has multiple consumer in kafka?
+9. if spring security one request per filter?
+10. what is @autoconfiguration?
+11. what is intercepter?
+12. In spefic time we need to send a mail or notification?
+13. one topic can consume multiple consumers?
+
 private static String test() {
     try {
         if (1==1)throw new RuntimeException();
